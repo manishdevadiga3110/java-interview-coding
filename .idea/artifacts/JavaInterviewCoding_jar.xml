@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaInterviewCoding:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaInterviewCoding_jar</output-path>
+    <root id="archive" name="JavaInterviewCoding.jar">
+      <element id="module-output" name="JavaInterviewCoding" />
+    </root>
+  </artifact>
+</component>
