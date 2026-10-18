@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum {
-    public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] arr, int target) {
         Map<Integer, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
+        for (int i = 0; i < arr.length; i++) {
+            int complement = target - arr[i];
 
             // Check if the complement exists in the map
             if (map.containsKey(complement)) {
@@ -16,7 +16,7 @@ public class TwoSum {
             }
 
             // Store the current number and its index
-            map.put(nums[i], i);
+            map.put(arr[i], i);
         }
 
         // If no solution is found, throw an exception
